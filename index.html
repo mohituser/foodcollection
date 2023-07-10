@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar">
+    <div class="navbar-centre">
+        <span class="nav-icon">
+            <i class="fas fa-bars"></i>
+        </span>
+        <!-- <img src="https://logos.flamingtext.com/Name-Logos/Mohit-design-sketch-name.png" alt=""> -->
+        <div class="mohit">MO<span>H</span>IT</div>
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fa fa-cart-plus"></i>
+            </span>
+            <div class="cart-items">0</div>
+        </div>
+    </div>
+</nav>
+<!-- end of navbar -->
+
+<!-- --------- first page ---------------------------- -->
+<div class="hero">
+<div class="banner">
+    <h1 class="banner-title">furniture collection</h1>
+    <button class="banner-btn">shop now</button>
+</div>
+</div>
+
+<!-- ---------------------------end of first page-------------- -->
+<!-- -------------------second page---------------------- -->
+<div class="products">
+    <div class="section-title">
+        <h2>Our Products</h2>
+    </div>
+    <div class="products-centre">
+        <!------ single product -->
+<div class="product">
+ <div class="img-container">
+    <img src="https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product-img">
+    <button class="bag-btn" data-id="1">
+        <i class="fas fa-shopping-cart"></i>
+        add to bag
+    </button>
+ </div>
+ <h3>Queen Bed</h3>
+ <h4>10$</h4>
+</div>
+
+
+
+        <!-- end of single product -->
+    </div>
+</div>
+<!-- --------------------end of second page-------------------- -->
+<!-- ------------------ cart items--------------------------- -->
+<div class="cart-overlay">
+<div class="cart">
+    <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+    </span>
+    <h2>Your Cart</h2>
+    <div class="cart-content">
+        <!-- cart item -->
+
+
+        <!-- end ofcart item -->
+    </div>
+    <div class="cart-footer">
+        <h3>Your Total : $ <span class="cart-total">0</span> </h3>
+        <button class="clear-cart banner-btn">clear cart</button>
+    </div>
+</div>
+
+</div>
+
+
+<!-- ------------------ end of cart items--------------------------- -->
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
